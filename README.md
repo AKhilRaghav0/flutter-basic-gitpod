@@ -11,4 +11,4 @@ For creating Nice Quiz app
 - [x] App Bar
 - [x] Buttons
 - [ ] Questions
--[x] interchange stateless with stateful widget
+- [x] interchange stateless with stateful widget
