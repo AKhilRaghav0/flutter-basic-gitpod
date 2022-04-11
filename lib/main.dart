@@ -1,7 +1,4 @@
 // ignore_for_file: deprecated_member_use
-
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 
 /* void main() {
@@ -22,7 +19,10 @@ class MyAppState extends State<MyApp> {
   var questionIndex = 0;
 
   void answerQuestion() {
-    questionIndex = questionIndex + 1;
+    setState(() {
+      questionIndex = questionIndex + 1;
+    });
+
     print(questionIndex);
   }
 
